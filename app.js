@@ -8,5 +8,5 @@ app.use(bodyParser.urlencoded({extended : false}));
 app.use('/login',login);
 
 app.listen(3000,function(err){
-    console.log("listining on port 3k")
+    console.log("listining on port 3000")
 })
